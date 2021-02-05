@@ -1,0 +1,33 @@
+@import './variables';
+@import './layout/main-content';
+@import './layout/header';
+@import './layout/navbar';
+@import './layout/footer';
+
+.dsc {
+  &-main-container,
+  &-main-container-full {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 60px auto 50px;
+    height: 100vh;
+    min-height: 500px;
+  }
+
+  &-main-container-full {
+    grid-template-columns: 0 auto;
+  }
+
+  &-header,
+  &-left-nav {
+    box-shadow: 1px 1px 6px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media (max-width: 768px) {
+  .dsc {
+    &-main-container {
+      grid-template-columns: 0 auto;
+    }
+  }
+}
