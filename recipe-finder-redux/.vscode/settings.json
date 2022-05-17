@@ -1,0 +1,40 @@
+{
+	"javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+	"gitlens.statusBar.dateFormat": "",
+	// Editor
+	"editor.tabCompletion": "on",
+	"editor.wordWrap": "on",
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingQuotes": "always",
+	"editor.tabSize": 2,
+	"editor.renderWhitespace": "all",
+	"editor.minimap.enabled": true,
+	"editor.suggestSelection": "first",
+	"editor.rulers": [80],
+	"html.format.extraLiners": "",
+	"synthwave84.brightness": 0.0,
+	"synthwave84.disableGlow": true,
+	"workbench.editor.wrapTabs": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// Prettier
+	"prettier.arrowParens": "always",
+	"prettier.bracketSpacing": true,
+	"prettier.embeddedLanguageFormatting": "auto",
+	"prettier.htmlWhitespaceSensitivity": "css",
+	"prettier.insertPragma": false,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.proseWrap": "preserve",
+	"prettier.quoteProps": "as-needed",
+	"prettier.semi": false,
+	"prettier.requirePragma": true,
+	"prettier.tabWidth": 2,
+	"prettier.trailingComma": "es5",
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleQuote": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"editor.formatOnType": true
+}

@@ -1,0 +1,2 @@
+export const SET_RECIPES = 'SET_RECIPES'
+export const FAVORITES_RECIPE = 'FAVORITES_RECIPE'
