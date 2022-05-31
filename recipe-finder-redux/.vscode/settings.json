@@ -1,22 +1,44 @@
 {
-	"javascript.format.insertSpaceAfterSemicolonInForStatements": false,
-	"gitlens.statusBar.dateFormat": "",
+	// Javascript
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"search.useGlobalIgnoreFiles": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	// "typescript.tsserver.watchOptions": {},
+	// "typescript.npm": "",
+	"files.exclude": {
+		"node_modules": true,
+		"package-lock.json": true,
+		"yarn.lock": true
+	},
+	// "launch": {
+	// 	"configurations": [],
+	// 	"compounds": []
+	// },
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"html.format.extraLiners": "",
 	// Editor
+	"workbench.colorTheme": "SynthWave '84",
+	// "workbench.colorCustomizations": {},
+	"synthwave84.brightness": 0.0,
+	"synthwave84.disableGlow": true,
 	"editor.tabCompletion": "on",
 	"editor.wordWrap": "on",
 	"editor.autoClosingBrackets": "always",
 	"editor.autoClosingQuotes": "always",
 	"editor.tabSize": 2,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.renderWhitespace": "all",
 	"editor.minimap.enabled": true,
 	"editor.suggestSelection": "first",
 	"editor.rulers": [80],
-	"html.format.extraLiners": "",
-	"synthwave84.brightness": 0.0,
-	"synthwave84.disableGlow": true,
 	"workbench.editor.wrapTabs": false,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// Prettier
 	"prettier.arrowParens": "always",
 	"prettier.bracketSpacing": true,
@@ -24,17 +46,23 @@
 	"prettier.htmlWhitespaceSensitivity": "css",
 	"prettier.insertPragma": false,
 	"prettier.jsxBracketSameLine": false,
+	"prettier.printWidth": 120,
 	"prettier.proseWrap": "preserve",
 	"prettier.quoteProps": "as-needed",
-	"prettier.semi": false,
-	"prettier.requirePragma": true,
+	"prettier.requirePragma": false,
 	"prettier.tabWidth": 2,
 	"prettier.trailingComma": "es5",
 	"prettier.vueIndentScriptAndStyle": false,
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"editor.formatOnType": true
+	"prettier.semi": false,
+	"tabnine.experimentalAutoImports": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"editor.formatOnSave": true,
+	"eslint.format.enable": true,
+	// "eslint.options": {},
+	"eslint.nodeEnv": ""
 }
