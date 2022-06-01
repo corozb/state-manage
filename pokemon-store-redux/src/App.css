@@ -1,0 +1,10 @@
+body {
+  background-color: #192456 !important
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+

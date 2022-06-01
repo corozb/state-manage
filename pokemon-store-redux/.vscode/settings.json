@@ -1,0 +1,78 @@
+{
+  "workbench.colorTheme": "SynthWave '84",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // Terminal
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "search.useGlobalIgnoreFiles": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "typescript.tsserver.watchOptions": {},
+  "typescript.tsdk": "",
+
+  // Editor
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.rulers": [80],
+  "typescript.npm": "",
+  "html.format.extraLiners": "",
+  "synthwave84.brightness": 0.0,
+  "synthwave84.disableGlow": true,
+  "workbench.editor.wrapTabs": false,
+  // Prettier
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.printWidth": 120,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.vueIndentScriptAndStyle": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "prettier.jsxSingleQuote": true,
+  "git.enableSmartCommit": true,
+  "eslint.options": {},
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[shellscript]": {
+    "files.eol": "\n"
+  },
+  "window.zoomLevel": 3,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "eslint.format.enable": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.confirmSync": false,
+  "files.exclude": {
+    "node_modules": false,
+    "package-lock.json": true,
+    "yarn.lock": true
+  },
+  "workbench.colorCustomizations": {},
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "eslint.nodeEnv": "",
+  "gitlens.proxy": {},
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true }
+}
