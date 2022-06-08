@@ -71,7 +71,8 @@
 }
 
 .ui.label,
-.ui.labels .label {
+.ui.labels .label,
+p.ui.tag.label {
   font-size: 22px;
 }
 
